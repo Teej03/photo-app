@@ -21,7 +21,7 @@ $(document).ready(function () {
   
   $(".cc_form").on('submit', submitHandler);
   
-  stripeResponseHandler = function (status, reponse) {
+  stripeResponseHandler = function (status, response) {
     var token, $form;
     
     $form = $('.cc_form');
